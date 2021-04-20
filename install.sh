@@ -1,5 +1,10 @@
 #!/usr/bin/env bash -xe
 
+ssh-keygen
+
+echo -n 'Githubにキーを登録したらEnterを押してください'
+read
+
 items=(
   "rbenv"
   "screen"
