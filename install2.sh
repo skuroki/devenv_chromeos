@@ -4,6 +4,7 @@ items=(
   "gnome-terminal"
   "zsh"
   "neovim"
+  "peco"
 )
 for item in "${items[@]}" ; do
   sudo apt install -y ${item}
