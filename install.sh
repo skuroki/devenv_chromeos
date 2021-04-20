@@ -1,6 +1,7 @@
 #!/usr/bin/env bash -xe
 
 # -Nはパスフレーズの指定、-fはキーファイル名の指定
+mkdir .ssh
 ssh-keygen -N '' -f .ssh/id_rsa
 cat .ssh/id_rsa.pub 
 
