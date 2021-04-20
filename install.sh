@@ -1,6 +1,8 @@
 #!/usr/bin/env bash -xe
 
-ssh-keygen
+# -Nはパスフレーズの指定、-fはキーファイル名の指定
+ssh-keygen -N '' -f .ssh/id_rsa
+cat .ssh/id_rsa.pub 
 
 echo -n 'Githubにキーを登録したらEnterを押してください'
 read
