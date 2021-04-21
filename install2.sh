@@ -1,3 +1,5 @@
+sudo apt update
+
 items=(
   "rbenv"
   "screen"
