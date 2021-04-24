@@ -12,4 +12,6 @@ curl -fsSL https://raw.githubusercontent.com/skuroki/devenv_chromeos/master/inst
 * 設定画面からやるシリーズ
   * 検索キーをctrlキーにする
     * デバイス＞キーボードから
+  * gnome-terminalでログインシェルを使う
+    * gnome-terminalの設定のprofile
 * dockの整理
