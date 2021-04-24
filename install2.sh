@@ -1,7 +1,6 @@
 sudo apt update
 
 items=(
-  "rbenv"
   "screen"
   "gnome-terminal"
   "zsh"
@@ -11,6 +10,8 @@ items=(
 for item in "${items[@]}" ; do
   sudo apt install -y ${item}
 done
+
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 
 sudo chsh $USER -s $(which zsh)
 
