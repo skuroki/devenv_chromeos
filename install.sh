@@ -4,5 +4,5 @@ ssh-keygen -N '' -f .ssh/id_rsa
 cat .ssh/id_rsa.pub 
 
 echo 'Githubにキーを登録したら'
-echo 'curl -fsSL https://raw.githubusercontent.com/skuroki/dotfiles2/master/install2.sh | bash -x'
+echo 'curl -fsSL https://raw.githubusercontent.com/skuroki/devenv_chromeos/master/install2.sh | bash -x'
 echo 'を実行してください'
