@@ -10,8 +10,10 @@ curl -fsSL https://raw.githubusercontent.com/skuroki/devenv_chromeos/master/inst
 ## 自動化していないこと
 
 * 設定画面からやるシリーズ
-  * 検索キーをctrlキーにする
-    * デバイス＞キーボードから
+  * キーボードの設定を、デバイス＞キーボードから
+    * HHKB用に、Alt→検索、外部メタキー→Alt
+      * HHKB側はスイッチ1と3をON
+    * 検索キーをctrlキーにする
   * gnome-terminalでログインシェルを使う
     * gnome-terminalの設定のprofile
 * dockの整理
