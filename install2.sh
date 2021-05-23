@@ -4,7 +4,6 @@ items=(
   "libssl-dev" # rubyのbuildに必要
   "zlib1g-dev" # rubyのbuildに必要
   "screen"
-  "gnome-terminal"
   "zsh"
   "neovim"
   "peco"
